@@ -1,4 +1,5 @@
 <?php
+
 //Variables
 $nombre = "Carlos";
 $apellido = "Sánchez";
@@ -44,12 +45,8 @@ $contador++;
 }
 echo $contador . "\n";
 
-/*
-1salida 
-i 0 3 6 9 12
-j 0 3 9 18
-*/
-/*$j=0;
+
+$j=0;
 for($i = 0;$i <=10;$i = $i +3){
 $j = $j + $i;
 }
@@ -59,7 +56,7 @@ echo $i . "\n";
 
 
 
-
+//Matriz 4*4
 for($i = 0;$i<4;$i++){
 for($j=0;$j<4;$j++){
 if($j == 1){
@@ -71,7 +68,7 @@ echo "O";
 echo "\n";
 }
 
-
+//Matriz 7 * 7
 for($i = 0; $i < 7; $i++){
 for($j = 0;$j < 7 ; $j++){
 if($i >= 1 && $i <= 5 && $j >= 1 && $j <= 5){
@@ -82,10 +79,5 @@ echo "O";
 }
 echo "\n";
 }
-
-
-
-
-
 
 ?>
