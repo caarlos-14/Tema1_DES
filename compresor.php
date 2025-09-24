@@ -1,5 +1,5 @@
 <?php
-$cadena = "Caarlooss_14";
+$cadena = "MMAAMMAA";
 $contador=1;
 $salida="";
 
